@@ -8,7 +8,7 @@ document.getElementById('btn-add-money')
         const pinNumberInput = document.getElementById('input-pin-number').value;
         // console.log(addMoneyInput, pinNumberInput);
 
-        if(pinNumberInput === '12345'){
+        if(pinNumberInput === '1234'){
             // console.log('Adding money to your account');
 
             const balance = document.getElementById('account-balance').innerText;
@@ -26,3 +26,5 @@ document.getElementById('btn-add-money')
         }
 
     })
+
+
